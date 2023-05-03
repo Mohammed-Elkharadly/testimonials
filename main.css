@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 10px;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+
+main .container {
+    display: grid;
+    
+    gap: 1.5rem;
+}
+
+@media (min-width: 50em) {
+    main .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+main .container .testimonials {
+    border-radius: .5rem;
+    padding: 2rem;
+    margin-inline: auto;
+    box-shadow: 1rem 1rem 2.8rempx  #808080;
+    width: min(95%, 95rem);
+}
+
+main .container .one {
+    
+    background-color: hsl(263, 55%, 52%);
+}
+
+@media (min-width: 50em) {
+    main .container .one {
+        grid-column: span 2;
+    }
+}
+
+main .container .one h1 {
+    color: hsl(0deg 0% 100% / 70%);
+    font-size: 2.3rem;
+}
+
+main .container .one p {
+    font-size: 1.3rem;
+    color: hsl(0deg 0% 100% / 50%);
+}
+
+main .container .one span {
+    color: hsl(0deg 0% 100% / 70%);
+}
+
+main .container .two {
+    background-color: hsl(217, 19%, 35%);
+}
+
+main .container .two h1 {
+    color: hsl(0deg 0% 100% / 70%);
+    font-size: 2.3rem;
+}
+
+main .container .two p {
+    font-size: 1.3rem;
+    color: hsl(0deg 0% 100% / 50%);
+}
+
+main .container .two span {
+    color: hsl(0deg 0% 100% / 70%);
+}
+
+main .container .three {
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+main .container .three h1 {
+    color: hsl(0deg 0% 0% / 70%);
+    font-size: 2.3rem;
+}
+
+main .container .three p {
+    font-size: 1.3rem;
+    color: hsl(0deg 0% 0% / 50%);
+}
+
+main .container .three span {
+    color: hsl(0deg 0% 0% / 70%);
+}
+
+main .container .four {
+    background-color: hsl(219, 29%, 14%);
+    
+}
+
+@media (min-width: 50em) {
+    main .container .four {
+        grid-column: span 2;
+    }
+}
+
+main .container .four h1 {
+    color: hsl(0, 0%, 70%);
+    font-size: 2.3rem;
+}
+
+main .container .four p {
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 50%);
+}
+
+main .container .four span {
+    color: hsl(0, 0%, 70%);
+}
+
+main .container .five {
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+@media (min-width: 50em) {
+    main .container .five {
+        grid-column: 4;
+    grid-row: 1 / span 2;
+    }
+}
+
+main .container .five h1 {
+    color: hsl(0deg 0% 0% / 70%);
+    font-size: 2.3rem;
+}
+
+main .container .five p {
+    font-size: 1.3rem;
+    color: hsl(0deg 0% 0% / 50%);
+}
+
+main .container .five span {
+    color: hsl(0deg 0% 0% / 70%);
+}
+
+main .container .testimonials .heading {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+main .container .testimonials .heading img {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+main .container .testimonials .heading .info span {
+    font-size: 1.6rem;
+}
+
+main .container .testimonials article h1 {
+    margin: 2rem 0;
+}
+
+
